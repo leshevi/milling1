@@ -15,7 +15,7 @@
         <nav>
           <ul class="navigation">
             <li class="nav-item">
-              <a class="nav-link" href="#cards">Каталог товаров</a>
+              <a class="nav-link" href="#cards">Каталог заказов</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#video">Видео</a>
@@ -24,7 +24,7 @@
               <a class="nav-link" href="#feedback">Отзывы</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contacts">Контакты</a>
+              <a class="nav-link" href="#contacts">Форма заказа</a>
             </li>
           </ul>
         </nav>
@@ -59,7 +59,7 @@
             <h3 class="card-title">Изготовление деталей</h3>
             <strong class="card-price">1500=</strong>
           </div>
-          <button class="button card-button button_shadow">Заказать</button>
+          <button class="button card-button button_shadow" id="card-button">Заказать</button>
         </div>
         <div class="card">
           <img src="./images/Detal2.jpg" alt="" class="card-img" />
@@ -67,7 +67,7 @@
             <h3 class="card-title">Изготовление деталей</h3>
             <strong class="card-price">390=</strong>
           </div>
-          <button class="button card-button button_shadow">Заказать</button>
+          <button class="button card-button button_shadow" id="card-button">Заказать</button>
         </div>
         <div class="card">
           <img src="./images/Detal3.jpg" alt="" class="card-img" />
@@ -77,7 +77,7 @@
             </h3>
             <strong class="card-price">690=</strong>
           </div>
-          <button class="button card-button button_shadow">Заказать</button>
+          <button class="button card-button button_shadow" id="card-button">Заказать</button>
         </div>
         <div class="card">
           <img src="./images/Detal4.jpg" alt="" class="card-img" />
@@ -87,7 +87,7 @@
             </h3>
             <strong class="card-price">590=</strong>
           </div>
-          <button class="button card-button button_shadow">Заказать</button>
+          <button class="button card-button button_shadow" id="card-button">Заказать</button>
         </div>
         <div class="card">
           <img src="./images/Detal5.jpg" alt="" class="card-img" />
@@ -97,7 +97,7 @@
             </h3>
             <strong class="card-price">590=</strong>
           </div>
-          <button class="button card-button button_shadow">Заказать</button>
+          <button class="button card-button button_shadow" id="card-button">Заказать</button>
         </div>
         <div class="card">
           <img src="./images/Detal6.jpg" alt="" class="card-img" />
@@ -105,7 +105,7 @@
             <h3 class="card-title">Изготовление деталей</h3>
             <strong class="card-price">590=</strong>
           </div>
-          <button class="button card-button button_shadow">Заказать</button>
+          <button class="button card-button button_shadow" id="card-button">Заказать</button>
         </div>
       </div>
     </div>
@@ -176,10 +176,11 @@
               <div class="textfields">
                 <input type="text" class="input text-input" placeholder="Ваше имя" id="name"/>
                 <input type="text" class="input text-input" placeholder="Ваш email" id="email"/>
+                <input type="text" class="input text-input" placeholder="Ваш телефон" id="phone"/>
               </div>
               <textarea class="input textarea-input" cols="30" rows="7" placeholder="Коментарий" id="order"></textarea>
               <div class="form-buttons">
-                <button class="button form-button" type="submit">
+                <button class="button form-button" type="submit" id="order-action">
                     Отправить заявку
                   </button>
                 <div class="social">
