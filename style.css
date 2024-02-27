@@ -342,6 +342,10 @@
     flex-basis: 50%;
     margin-left: 10px;
   }
+  .video-card {
+    flex-basis: 20%;
+    margin-left: 50px;
+  }
 }
 
 @media (max-width: 960px) {
@@ -416,6 +420,10 @@
 
   .textfields {
     flex-direction: column;
+  }
+
+  .video-card {
+    flex-basis: 100%;
   }
 
   .text-input {
