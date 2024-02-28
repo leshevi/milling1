@@ -227,7 +227,6 @@
 
 .feedback-card-text {
   font-size: 14px;
-  height: 50px;
   width: 100%;
   line-height: 21px;
   color: #fff
@@ -341,7 +340,7 @@
   }
 
   .feedback-card {
-    flex-basis: 70%;
+    flex-basis: 100%;
     margin-left: 10px;
   }
   .video-card {
