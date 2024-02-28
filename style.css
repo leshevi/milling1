@@ -202,6 +202,7 @@
 
 .feedback-cards {
   display: flex;
+  height: 500px;
   justify-content: space-between;
   flex-wrap: wrap;
 }
